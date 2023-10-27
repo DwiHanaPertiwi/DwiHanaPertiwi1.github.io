@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Form Buku Tamu</title>
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="jumbotron bg-light">
+        <h2 class="text-center mb-4">Form Buku Tamu</h2>
+        <form>
+            <div class="form-group">
+                <label for="namaLengkap">Nama Lengkap:</label>
+                <input type="text" class="form-control" id="namaLengkap" name="namaLengkap" placeholder="Masukkan Nama Lengkap">
+            </div>
+            <div class="form-group">
+                <label for="jenisKelamin">Jenis Kelamin:</label>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="lakiLaki" name="jenisKelamin" value="L" checked>
+                    <label class="form-check-label" for="lakiLaki">Laki-Laki</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="perempuan" name="jenisKelamin" value="P">
+                    <label class="form-check-label" for="perempuan">Perempuan</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="alamat">Alamat Tinggal:</label>
+                <input type="text" class="form-control" id="alamat" name="alamat" placeholder="Masukkan Alamat Tinggal">
+            </div>
+            <div class="form-group">
+                <label for="sosialMedia">Aktif pada sosial media:</label>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="facebook" name="facebook" value="Ya" checked>
+                    <label class="form-check-label" for="facebook">Facebook</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="twitter" name="Twitter" value="Ya" checked>
+                    <label class="form-check-label" for="twitter">Twitter</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="instagram" name="Instagram" value="Ya" checked>
+                    <label class="form-check-label" for="instagram">Instagram</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="path" name="path" value="Ya" checked>
+                    <label class="form-check-label" for="path">Path</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="info">Mengeahui web ini dari:</label>
+                <select class="form-control" id="info" name="info">
+                    <option selected="select">-= Pilih =-</option>
+                    <option value="Web">Web</option>
+                    <option value="surat kabar">Surat Kabar</option>
+                    <option value="teman kerabat">Teman/Kerabat</option>
+                    <option value="browsing internet">Browsing Internet</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="pesan">Pesan:</label>
+                <textarea class="form-control" id="pesan" name="pesan" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+        </div>
+     <!-- Add Bootstrap JS and Popper.js scripts here -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+    <a href="index.html">Beranda</a>
+</html>
